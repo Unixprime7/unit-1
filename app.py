@@ -1,6 +1,7 @@
 import turtle
 from turtle import *
 t = Turtle()
+t.speed(1)
 
 def equal(x):
     t.forward(x)
@@ -17,5 +18,9 @@ def right():
     t.left(135)
     t.forward(142)
 right()
+
+t.forward(120)
+
+equal(200)
 
 turtle.done()
